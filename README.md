@@ -1,4 +1,6 @@
-<img align="center" width="300" src="https://vestibulandoansioso.com/wp-content/uploads/2014/09/Vestibular-Mackenzie-2015.jpg" />
+
+<img width="353" alt="Captura de tela_20221125_144047" src="https://user-images.githubusercontent.com/48251038/204034679-3542ac63-56c5-48d5-9521-cb6466a561b2.png">
+
 
  > ### Este artigo descreve o projeto de Arduino com o objetivo de ser usado de forma inicial para ser um projeto versátil, onde consigamos adaptar para diversos tipos de situações ou usabilidades, se tornando base para outros projetos mais complexos. Exemplos: Monitoramento de temperatura e umidade de um ar condicionado, de um ventilador ou até mesmo um aparato onde recebemos atualizações sobre a umidade e temperatura via Whatsapp para pessoas que possuem problemas respiratórios. Sobre a construção do Hardware, utilizamos uma placa ESP32 (NodeMCU) que por sua vez tem acoplado um sensor DHT22 (sensor de umidade e temperatura). 
 
