@@ -66,7 +66,7 @@ https://nodered.org/
 
 ![c80112cc-b5fe-4264-8a00-15f7f86faebd](https://user-images.githubusercontent.com/48251038/204033171-d0b78894-be3e-42e7-9d78-6cc2e04a08fc.jpg)
 
-> Ao clicar 2x no campo de mensagem whats App tem a configuração, vamos usar agora o CallMeBot para enviar as mensagens, se seguir os passou e depois preencher as informações como API-KEY na configuração do node-res
+> Ao clicar 2x no campo de mensagem whats App tem a configuração, vamos usar agora o CallMeBot para enviar as mensagens, seguir os passou e depois preencher as informações como API-KEY na configuração do node-res
 
 https://www.callmebot.com/blog/free-api-whatsapp-messages/
 
