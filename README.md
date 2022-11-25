@@ -3,6 +3,29 @@
 
 
  ### Este artigo descreve o projeto de Arduino com o objetivo de ser usado de forma inicial para ser um projeto versátil, onde consigamos adaptar para diversos tipos de situações ou usabilidades, se tornando base para outros projetos mais complexos. Exemplos: Monitoramento de temperatura e umidade de um ar condicionado, de um ventilador ou até mesmo um aparato onde recebemos atualizações sobre a umidade e temperatura via Whatsapp para pessoas que possuem problemas respiratórios. Sobre a construção do Hardware, utilizamos uma placa ESP32 (NodeMCU) que por sua vez tem acoplado um sensor DHT22 (sensor de umidade e temperatura). 
+ 
+ 
+ 
+< MATERIAIS E MÉTODOS
+
+Essa primeira seção contará com a informação dos módulos/hardware que fora utilizado no projeto final.
+Demais detalhes sobre o funcionamento individual de cada componente estão descritos abaixo:
+
+Placa ESP32 (NodeMCU):
+
+Figura 1: Placa ESP32
+
+O ESP32 é uma placa de desenvolvimento com Wifi e Bluetooth, ideal para desenvolvimento de inúmeras aplicações IoT (Internet of Things ou Internet das Coisas). É adequado para dispositivos inteligentes domésticos, controle sem fio industrial, monitoramento sem fio.
+Equipado com CPU Xtensa® Dual-Core 32-bit LX6, antena embutida, interface usb-serial CP2102, e regulador de tensão 3.3V AMS1117. A programação pode ser feita em LUA ou usando a IDE do Arduino através de um cabo micro-usb. Com 4 MB de memória flash, o ESP32 ESP-WROOM-32, é uma solução ideal para aplicativos IoT.
+
+
+Sensor DHT22
+
+Figura 2: Sensor DHT22
+
+O Sensor de Temperatura e Umidade DHT22, também conhecido como Sensor AM2302, é um sensor que faz a medição da temperatura e da umidade com alta precisão, sendo que é permitido fazer leituras de temperaturas entre -40º a 80º Celsius e umidade entre 0 a 100%.
+O DHT22 funciona através de um sensor capacitivo de umidade e um termistor para medir o ar circundante, todos enviando informações para um microcontrolador de 8 bits que responde com um sinal digital para outro microcontrolador, como Arduino ou Pic. Ele trabalha com tensão de 3,5 a 5,5V e possui um baixo consumo de corrente, por volta de 1mA a 1,5mA, sendo que em stand by é de 40µA a 50µA, sem contar que sua precisão para medição de umidade chega a aproximadamente 2% RH e a de temperatura é de mais ou menos 0,5°C, tendo um excelente custo benefício para estudantes, amantes e profissionais da área de eletrônica.
+
 
 <img align="right" width="300" src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" />
 
