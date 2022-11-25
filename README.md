@@ -19,19 +19,19 @@ http://mqtt-explorer.com/
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/48251038/204028861-088ba067-255b-4e90-a847-e9c71b55e30d.png">
 
-Clicar no botão Advanced, add o topico exclusivo mackenzie20504039/#
+> Clicar no botão Advanced, add o topico exclusivo mackenzie20504039/#
 
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/48251038/204029002-1089b9f0-5cbe-46f4-9c97-469010660988.png">
 
-em seguida clique no botão de canectar
+> Em seguida clique no botão de canectar
 
 <img width="508" alt="image" src="https://user-images.githubusercontent.com/48251038/204029296-71c93bc7-af3f-4a0a-bde2-9c41eb0bddd7.png">
 
-Após conectar, volte ao projeto no worki e execute
+> Após conectar, volte ao projeto no worki e execute
 
 <img width="381" alt="image" src="https://user-images.githubusercontent.com/48251038/204029390-b0c7542c-c2d3-4a5b-bf0c-a272435ef07b.png">
 
-Após alguns segundo é conectado ao mqtt-explorer, onde podemos ver o histórico de temperatura e umidade do ar.
+> Após alguns segundo é conectado ao mqtt-explorer, onde podemos ver o histórico de temperatura e umidade do ar.
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/48251038/204029530-e09a1546-7b0f-44d1-93c1-7f23baa0e24b.png">
 
@@ -43,18 +43,17 @@ https://nodered.org/
 
 ### Configuração do Node-red
 
-Primeiro vamos utilizar o bloque que recebe informações e configurar com nosso topico exclusivo mackenzie20504039
+> Primeiro vamos utilizar o bloque que recebe informações e configurar com nosso topico exclusivo mackenzie20504039
 
 
 ![WhatsApp Image 2022-11-25 at 13 23 43 (2)](https://user-images.githubusercontent.com/48251038/204033141-c5487fc4-1370-45b5-bf8f-c9be3767a727.jpeg)
 ![cab39f25-616f-4272-9307-eda392e3c724](https://user-images.githubusercontent.com/48251038/204033153-3f9f6a99-227d-4949-b1af-de780bd6d2db.jpg)
 
-Depois vamos incluir a biblioteca do whatsApp para enviar mensgens
-
-> Manager palette 
+> Depois vamos incluir a biblioteca do whatsApp para enviar mensgens
 
 ![WhatsApp Image 2022-11-25 at 13 25 02 (1)](https://user-images.githubusercontent.com/48251038/204033318-57fc7c45-c691-40a9-becc-45862d73704a.jpeg)
 
+> Manager palette
 
 ![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
 
