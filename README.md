@@ -49,18 +49,17 @@ https://nodered.org/
 ![WhatsApp Image 2022-11-25 at 13 23 43 (2)](https://user-images.githubusercontent.com/48251038/204033141-c5487fc4-1370-45b5-bf8f-c9be3767a727.jpeg)
 ![cab39f25-616f-4272-9307-eda392e3c724](https://user-images.githubusercontent.com/48251038/204033153-3f9f6a99-227d-4949-b1af-de780bd6d2db.jpg)
 
-> Depois vamos incluir a biblioteca do whatsApp para enviar mensgens
-
-![WhatsApp Image 2022-11-25 at 13 25 02 (1)](https://user-images.githubusercontent.com/48251038/204033318-57fc7c45-c691-40a9-becc-45862d73704a.jpeg)
-
 > Manager palette
 
 ![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
 
+> Depois vamos incluir a biblioteca do whatsApp para enviar mensgens
+
+![WhatsApp Image 2022-11-25 at 13 25 02 (1)](https://user-images.githubusercontent.com/48251038/204033318-57fc7c45-c691-40a9-becc-45862d73704a.jpeg)
+
 > siga o modelo, clique 2x no campo para abrir a configuração
 
 ![WhatsApp Image 2022-11-25 at 13 23 33](https://user-images.githubusercontent.com/48251038/204033664-55f1a7ef-cc97-485b-8327-6692d84670d9.jpeg)
-
 
 
 ![c80112cc-b5fe-4264-8a00-15f7f86faebd](https://user-images.githubusercontent.com/48251038/204033171-d0b78894-be3e-42e7-9d78-6cc2e04a08fc.jpg)
