@@ -9,7 +9,7 @@ https://wokwi.com/projects/349305302851519058
 
 #Passo a passo para executar o projeto
 
-[ ] Fazer o dawload do mqtt-explorer, que irá receber as informações do worki
+- [ ] Fazer o dawload do mqtt-explorer, que irá receber as informações do worki
 
 http://mqtt-explorer.com/
 
