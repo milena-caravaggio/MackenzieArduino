@@ -1,0 +1,67 @@
+
+
+#include "EspMQTTClient.h"
+#include "DHTesp.h"
+
+EspMQTTClient client(
+  "Wokwi-GUEST",         // SSID WiFi
+  "",                    // Password WiFi
+  //"test.mosquitto.org",  // MQTT Broker
+  "broker.hivemq.com",  // MQTT Broker
+  "mqtt-mack",          // Client
+  1883                   // MQTT port
+);
+
+// sensor de umidade ligado na porta 15
+const int DHT_PIN = 15;
+
+//estaciar objeto no sensor
+DHTesp dhtSensor;
+
+void setup()
+{
+  Serial.begin(115200);
+
+  dhtSensor.setup(DHT_PIN, DHTesp::DHT22);
+
+  client.enableDebuggingMessages(); // Enable debugging messages sent to serial output
+  client.enableHTTPWebUpdater(); // Enable the web updater. User and password default to values of MQTTUsername and MQTTPassword. These can be overridded with enableHTTPWebUpdater("user", "password").
+  client.enableOTA(); // Enable OTA (Over The Air) updates. Password defaults to MQTTPassword. Port is the default OTA port. Can be overridden with enableOTA("password", port).
+  client.enableLastWillMessage("TestClient/lastwill", "Vou ficar offline");
+}
+
+
+ //brief Ler os dados do Sensor imprime e envia via MQTT
+ 
+void lerEnviarDados() {
+  TempAndHumidity data = dhtSensor.getTempAndHumidity();
+  Serial.println("Temp: " + String(data.temperature, 2) + "°C");
+  Serial.println("Umidade: " + String(data.humidity, 1) + "%");
+  Serial.println("---");
+
+ 
+  // criado o docker publico com topico exclusivo mackenzie20504039
+  client.publish("mackenzie20504039/temperatura", String(data.temperature, 2) + "°C"); 
+  client.publish("mackenzie20504039/umidade", String(data.humidity, 1) + "%");
+}
+
+/**
+ * @brief Esta função é chamada quando tudo estiver conectado (Wifi e MQTT),
+ * para utilizá-la deve-se implemtentar o struct EspMQTTClient
+ */
+void onConnectionEstablished()
+{
+  // Subscribe no "topicowokwi/msgRecebida/#" e mostra a mensagem recebida na Serial
+    client.subscribe("mackenzie20504039/msgRecebida/#", [](const String & topic, const String & payload) {
+    Serial.println("Mensagem recebida no topic: " + topic + ", payload: " + payload);
+  });
+
+  lerEnviarDados();
+}
+
+void loop()
+{
+  client.loop(); // Executa em loop
+  lerEnviarDados();
+  delay(500);
+}
