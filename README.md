@@ -1,13 +1,15 @@
 ⭐ Este artigo descreve o projeto de Arduino com o objetivo de ser usado de forma inicial para ser um projeto versátil, onde consigamos adaptar para diversos tipos de situações ou usabilidades, se tornando base para outros projetos mais complexos. Exemplos: Monitoramento de temperatura e umidade de um ar condicionado, de um ventilador ou até mesmo um aparato onde recebemos atualizações sobre a umidade e temperatura via Whatsapp para pessoas que possuem problemas respiratórios. Sobre a construção do Hardware, utilizamos uma placa ESP32 (NodeMCU) que por sua vez tem acoplado um sensor DHT22 (sensor de umidade e temperatura). 
 
-[website]: https://codedev.ga/
+<a href="https://github.com/Gurupreet">
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanessaswerts&show_icons=true&theme=dracula&line_height=27" alt="**SEU NOME** github stats"/>
+</a>
 
 
-#Link do projeto para o simulador worki
+⭐Link do projeto para o simulador worki
 
 https://wokwi.com/projects/349305302851519058 
 
-#Passo a passo para executar o projeto
+Passo a passo para executar o projeto
 
 Fazer o dawload do mqtt-explorer, que irá receber as informações do worki
 
