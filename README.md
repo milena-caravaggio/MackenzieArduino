@@ -53,13 +53,15 @@ https://nodered.org/
 
 ![WhatsApp Image 2022-11-25 at 13 25 02 (1)](https://user-images.githubusercontent.com/48251038/204033318-57fc7c45-c691-40a9-becc-45862d73704a.jpeg)
 
+> Manager palette
+
+![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
+
 > siga o modelo, clique 2x no campo para abrir a configuração
 
 ![WhatsApp Image 2022-11-25 at 13 23 33](https://user-images.githubusercontent.com/48251038/204033664-55f1a7ef-cc97-485b-8327-6692d84670d9.jpeg)
 
-> Manager palette
 
-![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
 
 ![c80112cc-b5fe-4264-8a00-15f7f86faebd](https://user-images.githubusercontent.com/48251038/204033171-d0b78894-be3e-42e7-9d78-6cc2e04a08fc.jpg)
 
