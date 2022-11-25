@@ -39,7 +39,7 @@ Após alguns segundo é conectado ao mqtt-explorer, onde podemos ver o históric
 
 https://nodered.org/
 
-#Importante! sega o passo a passo para instalçao e execução.
+# Importante! sega o passo a passo para instalçao e execução.
 
 
 
