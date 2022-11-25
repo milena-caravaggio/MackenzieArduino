@@ -20,6 +20,7 @@ Configuraçãoes necessárias
 Clicar no botão Advanced, add o topico exclusivo mackenzie20504039/#
 
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/48251038/204029002-1089b9f0-5cbe-46f4-9c97-469010660988.png">
+
 em seguida clique no botão de canectar
 
 <img width="508" alt="image" src="https://user-images.githubusercontent.com/48251038/204029296-71c93bc7-af3f-4a0a-bde2-9c41eb0bddd7.png">
@@ -31,6 +32,12 @@ Após conectar, volte ao projeto no worki e execute
 Após alguns segundo é conectado ao mqtt-explorer, onde podemos ver o histórico de temperatura e umidade do ar.
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/48251038/204029530-e09a1546-7b0f-44d1-93c1-7f23baa0e24b.png">
+
+Agora precisar fazer a comunicação com o node-red, baixe o programa no link 
+
+https://nodered.org/
+
+#red Importante! sega o passo a passo para instalçao e execução.
 
 
 
