@@ -45,13 +45,13 @@ https://nodered.org/
 
 ### Configuração do Node-red
 
-> Primeiro vamos utilizar o bloque que recebe informações e configurar com nosso topico exclusivo mackenzie20504039
+> Primeiro vamos utilizar o node-red que recebe informações e configurar com nosso topico exclusivo mackenzie20504039
 
 
 ![WhatsApp Image 2022-11-25 at 13 23 43 (2)](https://user-images.githubusercontent.com/48251038/204033141-c5487fc4-1370-45b5-bf8f-c9be3767a727.jpeg)
 ![cab39f25-616f-4272-9307-eda392e3c724](https://user-images.githubusercontent.com/48251038/204033153-3f9f6a99-227d-4949-b1af-de780bd6d2db.jpg)
 
-> Manager palette
+> Menu Manager palette
 
 ![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
 
