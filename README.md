@@ -39,9 +39,26 @@ Após alguns segundo é conectado ao mqtt-explorer, onde podemos ver o históric
 
 https://nodered.org/
 
-# Importante! sega o passo a passo para instalçao e execução.
+# Importante! sega o passo a passo para instalçao e execução do node-red.
+
+### Configuração do Node-red
+
+Primeiro vamos utilizar o bloque que recebe informações e configurar com nosso topico exclusivo mackenzie20504039
 
 
+![WhatsApp Image 2022-11-25 at 13 23 43 (2)](https://user-images.githubusercontent.com/48251038/204033141-c5487fc4-1370-45b5-bf8f-c9be3767a727.jpeg)
+![cab39f25-616f-4272-9307-eda392e3c724](https://user-images.githubusercontent.com/48251038/204033153-3f9f6a99-227d-4949-b1af-de780bd6d2db.jpg)
+
+Depois vamos incluir a biblioteca do whatsApp para enviar mensgens
+
+> Manager palette 
+
+![WhatsApp Image 2022-11-25 at 13 25 02 (1)](https://user-images.githubusercontent.com/48251038/204033318-57fc7c45-c691-40a9-becc-45862d73704a.jpeg)
+
+
+![WhatsApp Image 2022-11-25 at 13 25 13 (1)](https://user-images.githubusercontent.com/48251038/204033248-8984f678-3670-4596-8e8a-f05c85120848.jpeg)
+
+![c80112cc-b5fe-4264-8a00-15f7f86faebd](https://user-images.githubusercontent.com/48251038/204033171-d0b78894-be3e-42e7-9d78-6cc2e04a08fc.jpg)
 
 
 
