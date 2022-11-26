@@ -34,6 +34,10 @@ O DHT22 funciona através de um sensor capacitivo de umidade e um termistor para
 
 https://wokwi.com/projects/349305302851519058 
 
+⭐Link do video explicativo
+
+https://www.youtube.com/watch?v=ONjSLjxsS0Q&ab_channel=MilenaLimaCAcquesta
+
 ### Passo a passo para executar o projeto
 
 Fazer o dawload do mqtt-explorer, que irá receber as informações do worki
